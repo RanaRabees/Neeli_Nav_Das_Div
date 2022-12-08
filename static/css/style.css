@@ -1,0 +1,287 @@
+
+/* ================================NEELI NAV============================ */
+
+
+@import url('../api/Fonts/Algerian/Algerian\ Regular.ttf');
+
+/* flower navbar */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+#start{
+    margin-bottom: 0px;
+}
+
+#logo {
+    width: 30%;
+    height: 80px;
+    background-color: aqua;
+    display: inline;
+    position: absolute;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    
+
+}
+
+@media screen and (max-width: 434px) {
+    #logo {
+        display: none;
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 434px) {
+    #menu {
+        width: 90%;
+    }
+}
+
+#logo h1 {
+    font-size: xx-large;
+    font-family: algerian;
+    position: relative;
+    padding-left: 145px;
+}
+
+@media screen and (max-width: 1065px) {
+    #logo h1 {
+        display: none;
+    }
+}
+
+#logo img {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    left: 77px;
+    width: 120px;
+    height: 80px;
+    /* padding-left: 30px; */
+}
+
+@media screen and (max-width: 1065px) {
+    #logo img {
+        display: none;
+    }
+}
+
+#menu {
+    width: 70%;
+    height: 80px;
+    background-color: blueviolet;
+    position: absolute;
+    right: 0px;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 30px;
+
+}
+
+/* =====================================NAV END============================ */
+
+/* ======================================DAS DIV CARD========================= */
+
+#maindiv{
+    margin: 0px;
+    padding: 0px;
+    border: 5px solid rgb(209, 9, 9);
+    background-color: chartreuse;
+
+}
+
+#stbanner {
+    margin: 20px;
+    padding: 20px;
+    height: 100px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 10px solid black;
+    gap: 10px;
+}
+
+
+#first {
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 10px solid black;
+    gap: 10px;
+}
+
+#f1 {
+    border: 5px solid black;
+}
+
+#f2 {
+    border: 5px solid black;
+}
+
+#f3 {
+    border: 5px solid black;
+}
+
+#second {
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 10px solid black;
+    gap: 10px;
+}
+
+
+#third {
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 10px solid black;
+    gap: 10px;
+}
+
+
+#t1 {
+    border: 5px solid black;
+}
+
+#t2 {
+    border: 5px solid black;
+}
+
+#t3 {
+    border: 5px solid black;
+}
+
+#ninth {
+    margin: 20px;
+    padding: 20px;
+    height: 200px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 10px solid black;
+    gap: 10px;
+}
+
+
+#fifth {
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 10px solid black;
+    gap: 10px;
+}
+
+#fr5 {
+    border: 5px solid black;
+}
+
+#fr6 {
+    border: 5px solid black;
+}
+
+#fr7 {
+    border: 5px solid black;
+}
+
+#fr8 {
+    border: 5px solid black;
+}
+
+
+#sixth {
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 10px solid black;
+    gap: 10px;
+}
+
+#seventh {
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 10px solid black;
+    gap: 10px;
+}
+
+#sx5 {
+    border: 5px solid black;
+}
+
+#sx6 {
+    border: 5px solid black;
+}
+
+#sx7 {
+    border: 5px solid black;
+}
+
+#sx8 {
+    border: 5px solid black;
+}
+
+
+#footer {
+    margin: 20px;
+    padding: 20px;
+    height: 150px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 10px solid black;
+    gap: 10px;
+}
+
+#ten {
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 10px solid black;
+    gap: 10px;
+}
+
+
+#tn1 {
+    border: 5px solid black;
+}
+
+#tn2 {
+    border: 5px solid black;
+}
+
+/* =======================================DAS DIV END========================= */
+
